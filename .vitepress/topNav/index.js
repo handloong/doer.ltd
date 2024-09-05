@@ -15,17 +15,17 @@ export default [
   {
     text: ".Net",
     items: [
-      { text: "SpringBoot2", link: "/SpringBoot2/SpringBoot2" },
-      { text: "C#", link: "/note/vue" },
+      { text: ".Net Core WebApi", link: "/sdfsdf" },
+      { text: "Winform ", link: "/dfsdf1" },
     ],
   },
   {
     text: "不止代码",
     items: [
-      { text: "诗与远方", link: "/SpringBoot2/SpringBoot2" },
-      { text: "孕期关怀", link: "/note/vue" },
-      { text: "亲子教育", link: "/note/vue" },
-      { text: "黑暗料理", link: "/note/vue" },
+      { text: "诗与远方", link: "/fff" },
+      { text: "孕期关怀", link: "/ee" },
+      { text: "亲子教育", link: "/ddd" },
+      { text: "黑暗料理", link: "/abc" },
     ],
   }
 ];
