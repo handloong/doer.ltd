@@ -25,3 +25,11 @@ jobs:
 
       - name: Publish SSH
         uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          
+          
+        
