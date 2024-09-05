@@ -124,7 +124,7 @@ import { springboot2 } from "./sideBar/SpringBoot2";
     "darkModeSwitchTitle": "切换到深色模式",
     "editLink": {
       "text": "Edit this page on GitHub",
-      "pattern": "https://github.com/zhangdi168/VitePressSimple/edit/main/docs/:path"
+      "pattern": "https://github.com/handloong/doer.ltd/edit/main/docs/:path"
     },
     "docFooter": {
       "prev": "Previous page",

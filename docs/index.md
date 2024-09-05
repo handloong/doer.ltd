@@ -12,7 +12,7 @@
             },
             {
                 "text": "关于我",
-                "link": "/About"
+                "link": "/about"
             }
         ],
         "image": {
