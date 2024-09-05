@@ -2,21 +2,21 @@
 {
     "layout": "home",
     "hero": {
-        "name": "老表的编程笔记",
-        "text": "LaoBiao 's Programming Notes",
-        "tagline": "",
+        "name": "做则成",
+        "text": "",
+        "tagline": "路虽远行则将至,事虽难做则必成<br/>积跬步以至千里,积小流以成江海",
         "actions": [
             {
-                "text": "关于",
-                "link": "/markdown-examples"
+                "text": "开始阅读",
+                "link": "/SpringBoot2/[1.0] SpringBoot2"
             },
             {
-                "text": "API Examples",
-                "link": "/api-examples"
+                "text": "关于我",
+                "link": "/About"
             }
         ],
         "image": {
-            "src": "",
+            "src": "\\images\\home\\index_home.jpg",
             "alt": "",
             "width": "",
             "height": ""
@@ -25,25 +25,12 @@
         "features": [],
         "head": []
     },
-    "features": [
-        {
-            "title": "中文",
-            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        },
-        {
-            "title": "Feature B",
-            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        },
-        {
-            "title": "Feature C",
-            "details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-        }
-    ],
-    "title": "LaoBiao 's Programming Notes",
+    "features": [],
+    "title": "做则成 | doer.ltd | LaoBiao 's Programming Notes",
     "description": "",
     "navbar": true,
     "sideBar": true,
-    "footer": false,
+    "footer": true,
     "outline": [
         1,
         3

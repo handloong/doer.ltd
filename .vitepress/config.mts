@@ -41,7 +41,7 @@ import { defineConfig } from "vitepress";
       }
     ],
     "externalLinkIcon": false,
-    "i18nRouting": true,
+    "i18nRouting": false,
     "logo": "",
     "outline": {
       "level": 2,
@@ -155,8 +155,8 @@ import { defineConfig } from "vitepress";
     },
     "siteTitle": "做则成",
     "footer": {
-      "message": "-页脚",
-      "copyright": "-版权所有"
+      "message": "<p>© 2024 doer.ltd <a target='_blank' href=\"https://beian.miit.gov.cn\">豫ICP备2024077745号-1</a></p>",
+      "copyright": ""
     }
   },
   "assetsDir": "static",
@@ -166,7 +166,7 @@ import { defineConfig } from "vitepress";
   },
   "locales": {},
   "cacheDir": "./.vitepress/cache",
-  "titleTemplate": "LaoBiao 's Programming Notes",
+  "titleTemplate": "做则成 | doer.ltd | LaoBiao 's Programming Notes",
   "lang": "en-US",
   "base": "/",
   "outDir": "./.vitepress/dist",
