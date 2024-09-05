@@ -6,17 +6,25 @@
 
 export default [
   {
-    text: "编程笔记",
+    text: "Java",
+    items: [
+      { text: "SpringBoot2", link: "/SpringBoot2/SpringBoot2" },
+      { text: "SpringBoot2对应代码", link: "https://github.com/handloong/SpringBoot2" },
+    ],
+  },
+  {
+    text: ".Net",
     items: [
       { text: "SpringBoot2", link: "/SpringBoot2/SpringBoot2" },
       { text: "C#", link: "/note/vue" },
     ],
   },
   {
-    text: "生活记录",
+    text: "不止代码",
     items: [
-      { text: "SpringBoot2", link: "/SpringBoot2/SpringBoot2" },
-      { text: "C#", link: "/note/vue" },
+      { text: "诗与远方", link: "/SpringBoot2/SpringBoot2" },
+      { text: "亲子教育", link: "/note/vue" },
+      { text: "黑暗料理", link: "/note/vue" },
     ],
   }
 ];
