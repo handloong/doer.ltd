@@ -23,6 +23,7 @@ export default [
     text: "不止代码",
     items: [
       { text: "诗与远方", link: "/SpringBoot2/SpringBoot2" },
+      { text: "孕期关怀", link: "/note/vue" },
       { text: "亲子教育", link: "/note/vue" },
       { text: "黑暗料理", link: "/note/vue" },
     ],
