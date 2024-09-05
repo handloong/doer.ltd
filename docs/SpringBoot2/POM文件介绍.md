@@ -1,18 +1,11 @@
 # POM
 
-全称Project Object Model, maven的管理包的工具,简单类比为 node 的npm, C#的nuget, go 的cargo等.
+全称Project Object Model, maven的管理包的工具(maven简称mvn),简单类比为 node 的npm, C#的nuget, go 的cargo等.
 
-> maven简称mvn
+## 坐标
+打开项目创建的默认POM文件,看下面这段
 
-打开项目创建的默认POM文件
-
-```
-<modelVersion>4.0.0</modelVersion>
-```
-
-这个我也不知道是啥,可能是mvn的版本吧
-
-```xml
+``` xml
 <groupId>com.sp2learn</groupId>
 <artifactId>L01</artifactId>
 <version>1.0-SNAPSHOT</version>
@@ -26,7 +19,7 @@
 
 坐标简单解释: maven通过一些规则来定位一个包.相当于现实生活中的经纬度一样.
 
-```
+``` xml
 <properties>
     <maven.compiler.source>8</maven.compiler.source>
     <maven.compiler.target>8</maven.compiler.target>
@@ -38,3 +31,25 @@
 
 * `maven.compiler.source`和`maven.compiler.target`定义了编译Java源代码的目标JDK版本，在这里是Java 8。
 * `project.build.sourceEncoding`指定了源代码的字符编码，这里是UTF-8。
+
+## parent
+再来看一个POM
+
+``` xml
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.7.18</version>
+</parent>
+
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+</dependencies>
+```
+这个parent的意思代表父级,上面的意思是规定使用springboot2.7.18版本
+
+那么我们发现```spring-boot-starter-web```这个没有版本号? 他怎么指定的呢,这个就是parent的作用
+
