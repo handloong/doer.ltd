@@ -8,7 +8,7 @@
         "actions": [
             {
                 "text": "开始阅读",
-                "link": "/SpringBoot2/[1.0] SpringBoot2"
+                "link": "/SpringBoot2/SpringBoot2"
             },
             {
                 "text": "关于我",

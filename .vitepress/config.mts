@@ -1,36 +1,24 @@
+import topNav from "./topNav";
 import { defineConfig } from "vitepress";
 	export default defineConfig({
   "title": "做则成",
   "description": "",
   "srcDir": "./docs",
   "themeConfig": {
-    "nav": [
-      {
-        "text": "首页",
-        "link": "/"
-      },
-      {
-        "text": "SpringBoot2",
-        "link": "/SpringBoot2/[1.0] SpringBoot2"
-      },
-      {
-        "text": "关于",
-        "link": "/About"
-      }
-    ],
+    nav: topNav,
     "sidebar": {
       "/SpringBoot2/": [
         {
-          "text": "[1.0] SpringBoot2",
-          "link": "/SpringBoot2/[1.0] SpringBoot2"
+          "text": "SpringBoot2",
+          "link": "/SpringBoot2/SpringBoot2"
         },
         {
-          "text": "[1.1] IDEA常见问题",
-          "link": "/SpringBoot2/[1.1] IDEA常见问题"
+          "text": "IDEA常见问题",
+          "link": "/SpringBoot2/IDEA常见问题"
         },
         {
-          "text": "[3.0] POM",
-          "link": "/SpringBoot2/[3.0] POM"
+          "text": "POM",
+          "link": "/SpringBoot2/POM"
         }
       ]
     },
