@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 20.x
           cache: 'npm'
-      - run: npm install
+      - run: npm ci
       - run: npm run docs:build
     
       # 发布到服务器
