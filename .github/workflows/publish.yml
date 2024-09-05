@@ -1,6 +1,7 @@
-name: publish to server
+name: GitHub Actions Build and Deploy
 
 on:
+  # 手动运行工作流程（workflow_dispatch 事件触发器配置后可以在actions下手动运行工作流）
   workflow_dispatch:
 
 jobs:
@@ -11,7 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # 根据网上资料查询此处可以设置为 false。https://github.com/actions/checkout
           persist-credentials: false
+
 
       # 设置node的版本
       - name: Use Node.js
@@ -23,7 +26,8 @@ jobs:
       # 打包成静态文件
       - name: Build
         run: npm install && npm run docs:build
-        
+
+      # 发布到服务器
       - name: Publish SSH
         uses: appleboy/scp-action@master
         with:
