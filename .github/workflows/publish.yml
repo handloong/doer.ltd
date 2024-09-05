@@ -31,8 +31,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           strip_components: 2
-          source: .vitepress/dist/*
-          target: ${{ secrets.PATH }}
-          
-          
-        
+          source: .vitepress/dist/
+          target: /www/wwwroot/doer.ltd/
