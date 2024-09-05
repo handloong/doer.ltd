@@ -1,37 +1,3 @@
----
-{
-    "title": "[1.1] 工欲善其事必先利其爱地鹅",
-    "description": "",
-    "navbar": true,
-    "sideBar": true,
-    "footer": false,
-    "outline": [
-        1,
-        3
-    ],
-    "editLink": false,
-    "lastUpdated": true,
-    "aside": "right",
-    "layout": "doc",
-    "custom": {},
-    "hero": {
-        "image": {
-            "src": "",
-            "alt": "",
-            "width": "",
-            "height": ""
-        },
-        "name": "VitePressSimple",
-        "text": "quick to config vitePress",
-        "description": "",
-        "tagline": "",
-        "actions": [],
-        "features": [],
-        "head": []
-    }
-}
----
-
 # IDEA常见问题
 
 ## 还原New window / Current windows

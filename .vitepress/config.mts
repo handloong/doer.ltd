@@ -1,5 +1,7 @@
 import topNav from "./topNav";
 import { defineConfig } from "vitepress";
+import { springboot2 } from "./sideBar/SpringBoot2";
+
 	export default defineConfig({
   "title": "做则成",
   "description": "",
@@ -7,20 +9,7 @@ import { defineConfig } from "vitepress";
   "themeConfig": {
     nav: topNav,
     "sidebar": {
-      "/SpringBoot2/": [
-        {
-          "text": "SpringBoot2",
-          "link": "/SpringBoot2/SpringBoot2"
-        },
-        {
-          "text": "IDEA常见问题",
-          "link": "/SpringBoot2/IDEA常见问题"
-        },
-        {
-          "text": "POM",
-          "link": "/SpringBoot2/POM"
-        }
-      ]
+      "/SpringBoot2/": springboot2
     },
     "socialLinks": [
       {

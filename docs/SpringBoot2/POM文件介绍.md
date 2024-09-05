@@ -1,37 +1,3 @@
----
-{
-    "title": "[3.0] POM.xml解释",
-    "description": "",
-    "navbar": true,
-    "sideBar": true,
-    "footer": false,
-    "outline": [
-        1,
-        3
-    ],
-    "editLink": false,
-    "lastUpdated": true,
-    "aside": "right",
-    "layout": "doc",
-    "custom": {},
-    "hero": {
-        "image": {
-            "src": "",
-            "alt": "",
-            "width": "",
-            "height": ""
-        },
-        "name": "VitePressSimple",
-        "text": "quick to config vitePress",
-        "description": "",
-        "tagline": "",
-        "actions": [],
-        "features": [],
-        "head": []
-    }
-}
----
-
 # POM
 
 全称Project Object Model, maven的管理包的工具,简单类比为 node 的npm, C#的nuget, go 的cargo等.
