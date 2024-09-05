@@ -20,18 +20,5 @@ jobs:
         with:
           node-version: 20.x
           cache: 'npm'
-      - run: npm ci
+      - run: npm install
       - run: npm run docs:build
-    
-      # 发布到服务器
-      - name: Publish SSH
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          # 移除两层文件夹
-          strip_components: 2
-          source: ".vitepress/dist/*"
-          target:  ${{ secrets.PATH }}
