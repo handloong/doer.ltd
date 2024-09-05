@@ -155,8 +155,7 @@ import { defineConfig } from "vitepress";
     },
     "siteTitle": "做则成",
     "footer": {
-      "message": "<p>© 2024 doer.ltd <a target='_blank' href=\"https://beian.miit.gov.cn\">豫ICP备2024077745号-1</a></p>",
-      "copyright": ""
+      "copyright": "<p>© 2024 doer.ltd <a target='_blank' href=\"https://beian.miit.gov.cn\">豫ICP备2024077745号-1</a></p>",
     }
   },
   "assetsDir": "static",
