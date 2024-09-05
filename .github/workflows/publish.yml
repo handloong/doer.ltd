@@ -30,6 +30,9 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
+          strip_components: 2
+          source: .vitepress/dist/*
+          target: ${{ secrets.PATH }}
           
           
         
