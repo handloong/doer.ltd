@@ -22,3 +22,6 @@ jobs:
           cache: 'npm'
       - run: npm install
       - run: npm run docs:build
+
+      - name: Publish SSH
+        uses: appleboy/scp-action@master
