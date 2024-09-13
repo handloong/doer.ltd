@@ -24,7 +24,7 @@ export default [
     items: [
       { text: "诗与远方", link: "/fff" },
       { text: "孕期关怀", link: "/ee" },
-      { text: "亲子教育", link: "/ddd" },
+      { text: "我在长大", link: "https://doer.ltd/baby.html" },
       { text: "黑暗料理", link: "/abc" },
     ],
   }
