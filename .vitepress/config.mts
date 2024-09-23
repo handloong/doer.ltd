@@ -4,6 +4,7 @@ import { springboot2 } from "./sideBar/SpringBoot2";
 import { soft } from "./sideBar/Soft";
 
 	export default defineConfig({
+  "ignoreDeadLinks": true,
   "title": "做则成",
   "description": "",
   "srcDir": "./docs",
