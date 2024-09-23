@@ -13,15 +13,15 @@ Nacos 帮助您更敏捷和容易地构建、交付和管理微服务平台。 N
 地址: https://github.com/alibaba/nacos/releases
 
 
-![](/../vpstatic/images/20240923/0680edf08adc4ed19b11cc242bf68ff0.png)
+![image](/../vpstatic/images/20240923/0680edf08adc4ed19b11cc242bf68ff0.png)
 下载后进入到bin目录
 
 输入 ```startup.cmd -m standalone``` 作为单节点启动
 
-![](/../vpstatic/images/20240923/8a1cda2259714fd88120e35e2e71bf72.png)
+![image](/../vpstatic/images/20240923/8a1cda2259714fd88120e35e2e71bf72.png)
 
 启动后打开如下网址 http://localhost:8848/nacos/index.html 即可进入控制台
 
-![](/../vpstatic/images/20240923/3f3412671f584607bf53d757bcb80b64.png)
+![image](/../vpstatic/images/20240923/3f3412671f584607bf53d757bcb80b64.png)
 
 至此Nacos安装完成.
