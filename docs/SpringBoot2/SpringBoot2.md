@@ -8,6 +8,8 @@ Windows10/11 (笔者更推荐win10,感觉11还不是很好用)
 
 IntelliJ IDEA 2024.2.0.1
 
+笔者电脑账号:Administrator (路径举例使用这个)
+
 科学上网工具 (非必选但推荐)
 
 ## 是否需要安装JDK什么配置?
@@ -21,6 +23,9 @@ IntelliJ IDEA 2024.2.0.1
 ![db6b7718b9f74c0aa628c8b7621905e0.png](/../vpstatic/images/20240902/db6b7718-b9f7-4c0a-a628-c8b7621905e0.png)
 
 至此,开发环境已经配置完成,是不是和visual studio一样,无脑安装,点一下就行.下载完毕后窗口关闭就行了,可以先不用创建项目
+
+如果配置环境变量,找到idea自动下载的jdk地址就行,配置JAVA_HOME 为 ```C:\Users\Administrator\.jdks\corretto-1.8.0_422```
+然后在Path里面新增```%JAVA_HOME%\bin```,推荐配置一下因为例如mvn这种命令行工具需要环境变量.
 
 ## 创建项目,选择1.8
 

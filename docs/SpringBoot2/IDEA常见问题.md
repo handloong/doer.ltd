@@ -8,12 +8,12 @@
 
 ## 快捷键选择
 
-![13bd935a949746c1b17dfa1a2504f413.png](../../vpstatic/images/20240902/13bd935a-9497-46c1-b17d-fa1a2504f413.png)
+![13bd935a949746c1b17dfa1a2504f413.png](/../vpstatic/images/20240902/13bd935a-9497-46c1-b17d-fa1a2504f413.png)
 
 可以选择你喜欢的键盘映射,笔者就设置成了vs的
 
 
-![alt text](../../vpstatic/images/20240902/13bd935a-9497-46c1-b17d-fa1a2504f413.png)
+![alt text](/../vpstatic/images/20240902/13bd935a-9497-46c1-b17d-fa1a2504f413.png)
 
 ## Spring Boot Application in default package
 

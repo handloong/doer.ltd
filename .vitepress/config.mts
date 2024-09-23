@@ -1,6 +1,7 @@
 import topNav from "./topNav";
 import { defineConfig } from "vitepress";
 import { springboot2 } from "./sideBar/SpringBoot2";
+import { soft } from "./sideBar/Soft";
 
 	export default defineConfig({
   "title": "做则成",
@@ -9,7 +10,8 @@ import { springboot2 } from "./sideBar/SpringBoot2";
   "themeConfig": {
     nav: topNav,
     "sidebar": {
-      "/SpringBoot2/": springboot2
+      "/SpringBoot2/": springboot2,
+      "/Soft/": soft
     },
     "socialLinks": [
       {

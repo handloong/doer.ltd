@@ -1,15 +1,15 @@
-/*
- * @Description: 顶部右侧导航配置项
- * @Author: laoyuan
- * @Date: 2023-10-10 15:06:13
- */
-
 export default [
   {
     text: "Java",
     items: [
       { text: "SpringBoot2", link: "/SpringBoot2/SpringBoot2" },
       { text: "SpringBoot2对应代码", link: "https://github.com/handloong/SpringBoot2" },
+    ],
+  },
+  {
+    text: "杂七杂八",
+    items: [
+      { text: "常用软件", link: "/Soft/Soft" },
     ],
   },
   {
